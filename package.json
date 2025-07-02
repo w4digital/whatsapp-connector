@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-connector",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/multer": "^1.4.13",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "baileys": "^6.7.18",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.1"
+  }
+}
